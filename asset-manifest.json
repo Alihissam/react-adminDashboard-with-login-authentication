@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-adminDashboard-with-login-authentication/static/css/main.fcd86b37.css",
+    "main.js": "/react-adminDashboard-with-login-authentication/static/js/main.8b1f2b49.js",
+    "index.html": "/react-adminDashboard-with-login-authentication/index.html",
+    "main.fcd86b37.css.map": "/react-adminDashboard-with-login-authentication/static/css/main.fcd86b37.css.map",
+    "main.8b1f2b49.js.map": "/react-adminDashboard-with-login-authentication/static/js/main.8b1f2b49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcd86b37.css",
+    "static/js/main.8b1f2b49.js"
+  ]
+}

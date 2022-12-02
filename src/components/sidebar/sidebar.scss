@@ -1,0 +1,98 @@
+.sidebar{
+    // background-color: lightcoral;
+    border-right: 0.5px solid rgba(230, 227, 227);
+    min-height: 100vh;
+    background-color: #0c1424;
+    flex: 1;
+    
+    .top{
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    
+        .logo{
+            font-size: 22px;
+            font-weight: bold;
+            color: #6439ff;
+        }
+    }
+    hr{
+        height: 0;
+        border: 0.2px solid rgb(255, 255, 255);
+    }
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color: rgb(175, 172, 172);
+                margin-top: 15px;
+                margin-bottom: 5px;
+
+            }
+            .Dash{
+                color: red;
+            }
+            .order{
+                color: #b3f604;
+            }
+            .delivery{
+                color: lightblue;
+            }
+            .stats{
+                color: blue;
+            }
+            .stat{
+                color: #6439ff;
+            }
+            .syst{
+                color: red;
+            }
+            .logs{
+                color: yellow;
+            }
+            .set{
+                color: crimson;
+            }
+            .pro{
+                color: tomato;
+            }
+            .log{
+                color: violet;
+            }
+            .log-out-icon{
+                color: teal;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #7c7c7c6b;
+                }
+
+                .icon{
+                    font-size: 18px;
+                    // color: #7451f8;
+                }
+
+                span{
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #fff;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    
+}
